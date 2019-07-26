@@ -1,0 +1,28 @@
+{
+  "name": "sen-web",
+  "version": "1.0.0",
+  "description": "sistema de gerenciamento academico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevilishNathan/sen-web.git"
+  },
+  "keywords": [
+    "gerenciamento",
+    "academico",
+    "alunos",
+    "escola",
+    "sen",
+    "sistema",
+    "academico"
+  ],
+  "author": "Nathan Soares Rodrigues Durães",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevilishNathan/sen-web/issues"
+  },
+  "homepage": "https://github.com/DevilishNathan/sen-web#readme"
+}
