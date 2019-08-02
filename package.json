@@ -1,28 +1,29 @@
 {
   "name": "sen-web",
   "version": "1.0.0",
-  "description": "sistema de gerenciamento academico.",
+  "description": "Sistema de gerenciamento academico",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevilishNathan/sen-web.git"
+    "url": "git+https://github.com/profandrew/sen-web.git"
   },
   "keywords": [
     "gerenciamento",
     "academico",
     "alunos",
-    "escola",
-    "sen",
-    "sistema",
-    "academico"
+    "escola"
   ],
-  "author": "Nathan Soares Rodrigues Durães",
+  "author": "Andrew Ribeiro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DevilishNathan/sen-web/issues"
+    "url": "https://github.com/profandrew/sen-web/issues"
   },
-  "homepage": "https://github.com/DevilishNathan/sen-web#readme"
+  "homepage": "https://github.com/profandrew/sen-web#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
 }
