@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alunos - Sistema Escolar Novo</title>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expanded-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">SEN</a>
+        <button class="navbar-toggler" type="button" data-target="#menu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">INÍCIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CADASTROS</a>
+                    <div class="dropdown-menu bg-dark">
+                        <a href="aluno.html" class="dropdown-item text-white">Alunos</a>
+                        <a href="professor.html" class="dropdown-item text-white">Professores</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h4 class="display-4">Cadastro de Aluno</h4>
+        <p class="leed">
+            Cadastre novos alunos para realizar novas matrículas.
+        </p>
+    </div>
+    <div class="container-fluid">
+        <form id="formAluno" autocomplete="off">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input type="text" name="nomeAluno" placeholder="Insira o nome do aluno" class="form-control"/> 
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input type="text" name="rgAluno" placeholder="Insira o RG do aluno" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input type="text" name="celAluno" placeholder="Insira o número de telefone do aluno" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input type="email" name="emailAluno" placeholder="Insira o email do aluno" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input type="date" name="dataNascimentoAluno" placeholder="Insira a data de nascimento do aluno" class="form-control"/>
+                    </div>
+                </div>
+            </div>   
+        </form>
+    </div>
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
