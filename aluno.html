@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alunos - Sistema Escolar Novo</title>
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="node_modules/ladda/dist/ladda-themeless.min.css"/>
 </head>
 <body>
     <nav class="navbar navbar-expanded-lg navbar-dark bg-dark">
@@ -62,10 +63,16 @@
                         <input type="date" name="dataNascimentoAluno" placeholder="Insira a data de nascimento do aluno" class="form-control"/>
                     </div>
                 </div>
+                <div class="col-12 d-flex justify-content-end">
+                    <button class="btn btn-primary" type="submit">Salvar</button>
+                </div>
             </div>   
         </form>
     </div>
 </body>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<Script src="node_modules/ladda/dist/spin.min.js"></Script>
+<script src="node_modules/ladda/dist/ladda.min.js"></script>
+<script src="aluno.js"></script>
 </html>
